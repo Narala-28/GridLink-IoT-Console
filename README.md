@@ -2,9 +2,9 @@
 
 ### Self-Hosted Industrial IoT & SCADA Platform for ESP32-Based Monitoring, Telemetry and Control
 
-GridLink IoT Console is a self-hosted Industrial IoT and SCADA-oriented platform developed for monitoring, telemetry, visualization and remote control of ESP32-based field devices and electrical systems.
+GridLink IoT Console is a self-hosted Industrial IoT and SCADA platform developed for real-time monitoring, telemetry, visualization and remote control of ESP32-based field devices and electrical systems.
 
-The platform provides a Blynk-style dashboard experience while using its own backend, MQTT infrastructure, database and web interface. It is designed for industrial applications such as substation monitoring, feeder automation, equipment monitoring, motor control and real-time electrical parameter visualization.
+The platform provides a configurable web-based dashboard for industrial applications such as substation automation, feeder monitoring, equipment monitoring, telemetry acquisition and remote control. It integrates MQTT communication, FastAPI backend services, PostgreSQL database storage, React/Vite frontend technology and Docker-based deployment.
 
 ---
 
@@ -814,3 +814,4 @@ ESP32 → MQTT → FastAPI → PostgreSQL → React
                   ↓
         Monitoring • Control • SCADA
 ```
+This is GridLink IoT Console – Self-hosted IoT and SCADA platform for real-time monitoring, telemetry, visualization and control.
