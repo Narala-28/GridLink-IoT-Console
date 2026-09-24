@@ -1,0 +1,7 @@
+fastapi
+uvicorn[standard]
+sqlalchemy
+psycopg[binary]
+paho-mqtt
+pydantic-settings
+python-dotenv
